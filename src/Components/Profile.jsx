@@ -6,7 +6,7 @@ import Card from './Card';
 
 const Profile = () => {
   return (
-    <div className=" ml-4 mr-4 sm:ml-8 sm:mr-8 md:ml-16 md:mr-16 lg:ml-32 lg:mr-32 xl:ml-72 xl:mr-72"> 
+    <div className=" ml-4 mr-4 sm:ml-8 sm:mr-8 md:ml-16 md:mr-16 lg:ml-32 lg:mr-32 xl:ml-40 xl:mr-40"> 
         {/* perfil */}
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
         <div className="mt-20 ">

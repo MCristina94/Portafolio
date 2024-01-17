@@ -3,6 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
     extend: {
+      height: {
+        '100': '25rem', 
+        '110': '28rem',
+        '120': '30rem',
+        '130': '35rem',
+        '140': '40rem',
+        '150': '50rem',
+      },
       fontSize: {
         '2xs': '0.625rem', // Personaliza con el tamaño que desees
       },
