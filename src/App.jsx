@@ -6,6 +6,7 @@ import MyProjects from './Pages/MyProjects'
 import Contact from './Pages/Contact'
 import { Route, Routes } from "react-router-dom"
 import './Styles/App.css'
+import Footer from "./Components/Footer"
 
 function App() {
   
@@ -15,12 +16,7 @@ function App() {
     
     <Header/>
     <Profile/>
-    <Routes>
-      <Route path="/" element={ <Home/> }/>
-      <Route path="/aboutme" element={ <Aboutme/> }/>
-      <Route path="/projects" element={ <MyProjects/> }/>
-      <Route path="/contact" element={ <Contact/> }/>
-    </Routes>
+    <Footer/>
 
     </>
   )

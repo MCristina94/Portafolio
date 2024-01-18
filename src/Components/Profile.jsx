@@ -3,6 +3,7 @@ import foto from '../img/Cartoonify.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Card from './Card';
+import Conoceme from './Conoceme';
 
 const Profile = () => {
   return (
@@ -48,11 +49,21 @@ const Profile = () => {
 
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
         {/* Proyectos */}
-        <h1 className="text-white mt-96 text-2xl font-bold">Proyectos</h1>
+        <h1 className="text-white mt-32 text-2xl font-bold">Proyectos</h1>
         <hr className="" />
         <div>
           <Card/>
         </div>
+      </div>
+
+      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
+        {/* Conoceme mas */}
+        <h1 className="text-white mt-32 text-2xl font-bold">Conóceme</h1>
+        <hr className="" />
+        <div>
+          <Conoceme/>
+        </div>
+
       </div>
     </div>
   )

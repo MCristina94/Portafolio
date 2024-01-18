@@ -13,7 +13,7 @@ const Card = () => {
   return (
     <div className="flex justify-between">
       {/* Card 1 */}
-        <div className="my-10 mx-6 h-56 sm:h-60 lg:h-72 xl:h-110 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md 
+      <div className="my-10 mx-6 h-56 sm:h-60 lg:h-72 xl:h-110 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md 
                       shadow-white p-0" style={{boxShadow: '0 0 10px rgba(255, 255, 255, 0.2)'}}>
             <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={proyectoFront} alt="img proyecto final front" />
             <div className="p-5">
