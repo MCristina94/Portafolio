@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
     extend: {
+      backgroundColor: {
+        'header-color': '#1A1525',
+        
+      },
+
       height: {
         '100': '25rem', 
         '110': '28rem',
@@ -27,6 +32,8 @@ export default {
           '800': '#454545',
           '900': '#3d3d3d',
           '950': '#111111',
+          'header-color-Orange': '#cf7f57',
+          'header-color-Menta': '#90d5c3'
         },
       },
     },
