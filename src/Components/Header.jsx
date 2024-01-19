@@ -6,12 +6,12 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (
-    <div className="flex justify-center items-center p-4 bg-header-color" style={{height: '40vh'}}>
-      <div className="flex flex-col items-center">
+    <div className="flex flex-col lg:flex-row justify-center items-center p-4 bg-header-color" style={{minHeight: '40vh'}}>
+      <div className="flex flex-col items-center lg:mb-0 lg:mr-10">
         <img className="mb-2" style={{height: '25vh'}} src={fotoPerfil} alt="foto de perfil" />
-        <div className="flex justify-center items-center text-center rounded-3xl mt-0 mb-10 p-2" style={{background: 'linear-gradient(to right, #996dff, #591ffa)', height: '5vh', width: '10vw'}}>
-          <img className = "mr-8 mt-2 w-4 h-4" src={iconoM} alt="logo M" />
-          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-8 mt-2 w-4 h-4"/>
+        <div className="flex justify-center items-center text-center rounded-3xl mt-0 mb-10 p-2" style={{background: 'linear-gradient(to right, #996dff, #591ffa)',  minHeight: '5vh', minWidth: '10vw'}}>
+          <img className = "mr-2 md:mr-4 mt-2 w-4 h-4" src={iconoM} alt="logo M" />
+          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-2 md:mr-4 mt-2 w-4 h-4"/>
           <FontAwesomeIcon icon={faGithub} style={{ color: "#e7e7e7" }} className = "mt-2 w-4 h-4"/>
         </div>
       </div>
