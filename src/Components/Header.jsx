@@ -11,8 +11,8 @@ const Header = () => {
         <img className="mb-2" style={{height: '25vh'}} src={fotoPerfil} alt="foto de perfil" />
         <div className="flex justify-center items-center text-center rounded-3xl mt-0 mb-10 p-2" style={{background: 'linear-gradient(to right, #996dff, #591ffa)',  minHeight: '5vh', minWidth: '10vw'}}>
           <img className = "mr-2 md:mr-4 mt-2 w-4 h-4" src={iconoM} alt="logo M" />
-          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-2 md:mr-4 mt-2 w-4 h-4"/>
-          <FontAwesomeIcon icon={faGithub} style={{ color: "#e7e7e7" }} className = "mt-2 w-4 h-4"/>
+          <a href="https://www.linkedin.com/in/maurin-cristina-a-8b349615b/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-2 md:mr-4 mt-2 w-4 h-4"/></a>
+          <a href="https://github.com/MCristina94" target="_blank"><FontAwesomeIcon icon={faGithub} style={{ color: "#e7e7e7" }} className = "mt-2 w-4 h-4"/></a>
         </div>
       </div>
       

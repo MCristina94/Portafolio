@@ -1,13 +1,12 @@
 import React from 'react'
-import fotoMia from '../img/FotoMia.jpg'
-import fotoDeMi from '../img/FotoDeMi.jpeg'
+import pinera from '../img/Pinera.png'
 const Conoceme = () => {
   return (
-    <div className="flex">
-      <div className=" mr-40 mb-10 mt-20 p-8"style={{boxShadow: '0 0 10px rgba(255, 255, 255, 0.2)'}} >
-        <div className="" >
-          <h2 className="text-blue-600 font-bold my-8 text-lg ">Proyectos Futuros e Intereses</h2>
-          <p className="text-white text-opacity-50">
+    <div className="flex flex-col items-center lg:flex-row mb-10 mt-10 p-8 rounded-md">
+      <div className=" mr-40 mb-10 mt-10 p-8 rounded-md lg:w-1/2 lg:mr-4 sm:items-center"style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}} >
+        <div>
+          <h2 className=" text-cod-gray-purpura-conoceme font-bold my-8 text-2xl ">Proyectos Futuros e Intereses</h2>
+          <p className="">
           Apasionada por el desarrollo frontend e innovación. Destacada Women Developer, 
           siempre al tanto de tendencias. Busco colaborar, enfrentar desafíos para crecer 
           en frontend y backend. Mi objetivo: aprender de líderes, participar en comunidades 
@@ -15,9 +14,9 @@ const Conoceme = () => {
           </p>
         </div>  
 
-        <div>
-          <h2 className="text-blue-600 font-bold my-8 text-lg ">Hobbies en Tecnología</h2>
-          <p className="text-white text-opacity-50">
+        <div> 
+          <h2 className="text-cod-gray-purpura-conoceme  font-bold my-8 text-2xl ">Hobbies en Tecnología</h2>
+          <p className="">
           En mi tiempo libre, aprendo de creadores en tecnología, especialmente en frontend y 
           JavaScript, a través de videos. Realizo cursos online para enriquecer mis habilidades 
           y sigo influencers en Instagram para mantenerme actualizada.
@@ -25,8 +24,8 @@ const Conoceme = () => {
         </div>
 
         <div>
-          <h2 className="text-blue-600 font-bold my-8 text-lg ">Hobbies Personales</h2>
-          <p className="text-white text-opacity-50">
+          <h2 className="text-cod-gray-purpura-conoceme  font-bold my-8 text-2xl ">Hobbies Personales</h2>
+          <p className="">
           Disfruto compartir momentos con mi familia y la emoción de elegir películas 
           en el cine a último minuto. Valorando noches de películas en casa con comida rápida. 
           En mi tiempo libre, encuentro serenidad en la naturaleza, especialmente observando el
@@ -34,8 +33,8 @@ const Conoceme = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center">
-        <img className=" w-full object-cover" src={fotoDeMi} alt="foto_pinera" />
+      <div className="flex items-center justify-center lg:w-1/2 lg:mr-4">
+        <img className=" w-full object-cover" src={pinera} alt="foto_pinera" />
       </div>
     </div>
   )
