@@ -7,12 +7,12 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Header = () => {
   return (
     <div className="flex justify-center items-center p-4 bg-header-color" style={{height: '40vh'}}>
-      <div>
-        <img style={{height: '35vh'}} src={fotoPerfil} alt="foto de perfil" />
-        <div className='flex'>
-          <img className = "mr-5 mt-2 w-6 h-6" src={iconoM} alt="logo M" />
-          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-5 mt-2 w-6 h-6"/>
-          <FontAwesomeIcon icon={faGithub} style={{ color: "#e7e7e7" }} className = "mr-5 mt-2 w-6 h-6"/>
+      <div className="flex flex-col items-center">
+        <img className="mb-2" style={{height: '25vh'}} src={fotoPerfil} alt="foto de perfil" />
+        <div className="flex justify-center items-center text-center rounded-3xl mt-0 mb-10 p-2" style={{background: 'linear-gradient(to right, #996dff, #591ffa)', height: '5vh', width: '10vw'}}>
+          <img className = "mr-8 mt-2 w-4 h-4" src={iconoM} alt="logo M" />
+          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#e7e7e7" }} className = "mr-8 mt-2 w-4 h-4"/>
+          <FontAwesomeIcon icon={faGithub} style={{ color: "#e7e7e7" }} className = "mt-2 w-4 h-4"/>
         </div>
       </div>
       
