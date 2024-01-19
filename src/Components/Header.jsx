@@ -20,8 +20,8 @@ const Header = () => {
       <div className="ml-10">
         <p className="text-white"> 1 <span className="text-yellow-300">&#123;</span></p>
         <p className="text-white"> 2 &nbsp; &nbsp; <span className=" text-cod-gray-header-color-Menta">"name" <span className="text-yellow-300">:</span></span><span className="text-cod-gray-header-color-Orange"> "Maureen"</span> , </p>
-        <p className="text-white"> 3 &nbsp; &nbsp; <span className=" text-cod-gray-header-color-Menta">"Passion" <span className="text-yellow-300">:</span></span>  <span className="text-cod-gray-header-color-Orange"> "Front-End Developer"</span> , </p>
-        <p className="text-white"> 4 &nbsp; &nbsp; <span className=" text-cod-gray-header-color-Menta">"Likes" <span className="text-yellow-300">:</span></span ><span className="text-violet-700"> &#91;</span> <span className="text-cod-gray-header-color-Orange">"Harry Potter", "Star Wars"</span><span className="text-violet-700">&#93;</span> , </p>
+        <p className="text-white"> 3 &nbsp; &nbsp; <span className=" text-cod-gray-header-color-Menta">"goals" <span className="text-yellow-300">:</span></span>  <span className="text-cod-gray-header-color-Orange"> "Front-End Developer"</span> , </p>
+        <p className="text-white"> 4 &nbsp; &nbsp; <span className=" text-cod-gray-header-color-Menta">"likes" <span className="text-yellow-300">:</span></span ><span className="text-violet-700"> &#91;</span> <span className="text-cod-gray-header-color-Orange">"Harry Potter", "Star Wars"</span><span className="text-violet-700">&#93;</span> , </p>
         <p className="text-white"> 5 <span className="text-yellow-300">&#125;</span></p>
       </div>
     </div>
