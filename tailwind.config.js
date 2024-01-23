@@ -7,7 +7,10 @@ export default {
         'header-color': '#1A1525',
         
       },
-
+      width:{
+        '2.8': '2.8rem',
+        '3.2': '3.2rem'
+      },
       height: {
         '100': '25rem', 
         '110': '28rem',
@@ -15,6 +18,8 @@ export default {
         '130': '35rem',
         '140': '40rem',
         '150': '50rem',
+        '2.8': '2.8rem',
+        '3.2': '3.2rem'
       },
       fontSize: {
         '2xs': '0.625rem', // Personaliza con el tamaño que desees

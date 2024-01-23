@@ -2,10 +2,10 @@ import React from 'react'
 import pinera from '../img/Pinera.png'
 const Conoceme = () => {
   return (
-    <div className="flex flex-col items-center lg:flex-row mb-10 mt-10 p-8 rounded-md">
-      <div className=" mr-40 mb-10 mt-10 p-8 rounded-md lg:w-1/2 lg:mr-4 sm:items-center"style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}} >
+    <div className="flex items-center mt-10 p-8 rounded-md">
+      <div className="mb-10 mt-10 p-8 rounded-md lg:mr-4 sm:items-center"style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}} >
         <div>
-          <h2 className=" text-cod-gray-purpura-conoceme font-bold my-8 text-2xl ">Proyectos Futuros e Intereses</h2>
+          <h2 className=" text-cod-gray-purpura-conoceme font-bold my-8 text-2xl">Proyectos Futuros e Intereses</h2>
           <p className="">
           Apasionada por el desarrollo frontend e innovación. Destacada Women Developer, 
           siempre al tanto de tendencias. Busco colaborar, enfrentar desafíos para crecer 
@@ -32,9 +32,6 @@ const Conoceme = () => {
           mar. Disfruto bailar, jugar juegos de mesa y compartir mi tiempo con seres queridos.
           </p>
         </div>
-      </div>
-      <div className="flex items-center justify-center lg:w-1/2 lg:mr-4">
-        <img className=" w-full object-cover" src={pinera} alt="foto_pinera" />
       </div>
     </div>
   )

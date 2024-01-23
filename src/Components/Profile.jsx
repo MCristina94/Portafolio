@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 import Conoceme from './Conoceme';
+import Habilidades from './Habilidades';
 
 const Profile = () => {
   return (
@@ -9,19 +10,19 @@ const Profile = () => {
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
         <h2 className="text-xl mt-32">Portfolio</h2>
         {/* sobre mi */}
-        <h1 className="text-2xl font-bold mt-5">Sobre mí</h1>
+        <h1 className=" text-3xl font-bold mt-5">Sobre mí</h1>
         <hr style={{border: '1px solid #6d40ae'}} />
-        <p className=" mt-2">
+        <p className="mx-10 mt-5 text-xl">
           Soy Ingeniera Industrial; sin embargo, en la búsqueda de una nueva aventura, decidí 
           sumergirme en un bootcamp de programación Full Stack. Durante este proceso, desarrollé 
           un gusto particular por el área Front-End, aunque también adquirí conocimientos básicos 
           de Back-End con Spring Boot y MySQL. Lo que realmente me apasiona es trabajar con JavaScript 
           y React.
         </p>
-        <p className="mt-2">
+        <p className="mx-10 mt-5 text-xl">
           Disfruto aprendiendo a crear interfaces de usuario intuitivas y participando en el desarrollo 
           de aplicaciones.</p>
-        <p className="mt-2">
+        <p className="mx-10 mt-5 text-xl">
           Creo firmemente en la idea de que cada día ofrece la oportunidad de aprender algo nuevo. 
           Mi enfoque como ingeniera se basa en la filosofía de considerar cada problema como una 
           oportunidad de aprendizaje. Asumir desafíos es esencial para el crecimiento, y no tengo miedo 
@@ -31,7 +32,7 @@ const Profile = () => {
 
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
         {/* Proyectos */}
-        <h1 className="text-2xl font-bold mt-32">Proyectos</h1>
+        <h1 className="text-3xl font-bold mt-32">Proyectos</h1>
         <hr style={{border: '1px solid #6d40ae'}} />
         <div>
           <Card/>
@@ -39,8 +40,17 @@ const Profile = () => {
       </div>
 
       <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
+        {/* Habilidades */}
+        <h1 className="text-3xl font-bold mt-32">Habilidades</h1>
+        <hr style={{border: '1px solid #6d40ae'}} />
+        <div>
+          <Habilidades/>
+        </div>
+      </div>
+
+      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-44">
         {/* Conoceme mas */}
-        <h1 className="mt-32 text-2xl font-bold">Conóceme</h1>
+        <h1 className="mt-32 text-3xl font-bold">Conóceme</h1>
         <hr style={{border: '1px solid #6d40ae'}} />
         <div>
           <Conoceme/>
