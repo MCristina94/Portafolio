@@ -37,6 +37,7 @@ export default {
           '800': '#454545',
           '900': '#3d3d3d',
           '950': '#111111',
+          'parrafo': '#71717a',
           'header-color-Orange': '#cf7f57',
           'header-color-Menta': '#90d5c3',
           'purpura-conoceme': '#6d40ae',

@@ -29,7 +29,7 @@ const Card = () => {
                         <FontAwesomeIcon icon={faGithub} style={{ color: " #2563EB" }} className = "mt-2 w-6 h-6  hover:text-cod-gray-purpura-conoceme"/>
                     </div>
                 </a>
-                <p className=" text-sm my-2">
+                <p className=" text-sm my-2 text-cod-gray-900">
                     Proyecto Frontend con React y Vite. Creé una web de odontólogos con tarjetas para explorar,
                     agregar a favoritos y obtener detalles. Incluye sección de contacto con formulario para 
                     comunicación rápida. Interfaz dinámica para experiencia eficiente y atractiva. </p>
@@ -60,7 +60,7 @@ const Card = () => {
                     </div>
                 </a>
                 
-                <p className="text-sm my-2">
+                <p className="text-sm my-2 text-cod-gray-900">
                         Proyecto React: Registro y Gestión de Pacientes
                         Creado en un curso de Udemy, este proyecto simplifica el registro, visualización y modificación de 
                         información de pacientes. Interfaz intuitiva para una experiencia eficiente. ¡Administre datos de 
@@ -94,7 +94,7 @@ const Card = () => {
                         </div>
                     </a>
 
-                    <p className="text-sm my-2">
+                    <p className="text-sm my-2 text-cod-gray-900">
                     Proyecto de Planificación de Gastos en React, creado con el curso de Udemy. Permite presupuestar, 
                     registrar gastos en categorías como salud, alimentación, estudio, ocio, y ver el saldo restante. 
                     Incluye una gráfica dinámica para gestión financiera efectiva. ¡Administra tus gastos fácilmente! </p>
