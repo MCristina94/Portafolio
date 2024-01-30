@@ -114,13 +114,13 @@ const Card = () => {
       
          <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
                 <div className="2xl:w-1/2 2xl:ml-20 mr-8">
-                <a href="https://project-presupuestos.vercel.app/" target='_blank'>
+                <a href="https://pokemon-sigma-flax.vercel.app/" target='_blank'>
                     <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={pokemon} alt="pokemon" />
                 </a>
                 </div>
 
                 <div className="2xl:w-1/2 2xl:mr-20">
-                    <a href="https://github.com/MCristina94/Project-Presupuestos" target="_blank">
+                    <a href="https://github.com/MCristina94/Pokemon" target="_blank">
                         <div className="flex justify-center items-center">
                             <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">Pokemón</h3>
                             <FontAwesomeIcon icon={faGithub} style={{ color: " #2563EB" }} className = "mt-2 w-6 h-6  hover:text-cod-gray-purpura-conoceme"/>
