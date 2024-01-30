@@ -7,6 +7,7 @@ import proyectoFront from '../img/ProyectoFront.png'
 import proyectoGastos from '../img/PlanificadorGastos.png'
 import proyectoPediatria from '../img/Pediatria.png'
 import proyectoBackend from '../img/proyectoBakend.png'
+import pokemon from '../img/pokemon.png'
 
 
 const Card = () => {
@@ -95,9 +96,11 @@ const Card = () => {
                     </a>
 
                     <p className="text-sm my-2 text-cod-gray-900">
-                    Proyecto de Planificación de Gastos en React, creado con el curso de Udemy. Permite presupuestar, 
-                    registrar gastos en categorías como salud, alimentación, estudio, ocio, y ver el saldo restante. 
-                    Incluye una gráfica dinámica para gestión financiera efectiva. ¡Administra tus gastos fácilmente! </p>
+                    Proyecto Pokémon, consumí la API pública de Pokémon para crear una experiencia interactiva. 
+                    Dividí la página en tres rutas distintas que permiten explorar, seleccionar y gestionar 
+                    Pokémon. Desde la visualización de cards con detalles completos hasta la posibilidad de 
+                    construir tu equipo personalizado, esta aplicación ofrece una experiencia inmersiva para 
+                    los aficionados a Pokémon. </p>
                     {/* iconos */}
                     <div className="flex justify-around mt-5">
                         <FontAwesomeIcon className="h-9 w-9 mr-2" icon={faJs} style={{color: "#3182ce"}} />
@@ -107,6 +110,38 @@ const Card = () => {
                 </div>
             </div>
         
+         {/* Card 4 */}
+      
+         <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+                <div className="2xl:w-1/2 2xl:ml-20 mr-8">
+                <a href="https://project-presupuestos.vercel.app/" target='_blank'>
+                    <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={pokemon} alt="pokemon" />
+                </a>
+                </div>
+
+                <div className="2xl:w-1/2 2xl:mr-20">
+                    <a href="https://github.com/MCristina94/Project-Presupuestos" target="_blank">
+                        <div className="flex justify-center items-center">
+                            <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">Pokemón</h3>
+                            <FontAwesomeIcon icon={faGithub} style={{ color: " #2563EB" }} className = "mt-2 w-6 h-6  hover:text-cod-gray-purpura-conoceme"/>
+                        </div>
+                    </a>
+
+                    <p className="text-sm my-2 text-cod-gray-900">
+                    Proyecto Pokémon, consumí la API pública de Pokémon para crear una experiencia interactiva. 
+                    Dividí la página en tres rutas distintas que permiten explorar, seleccionar y gestionar 
+                    Pokémon. Desde la visualización de cards con detalles completos hasta la posibilidad de 
+                    construir tu equipo personalizado, esta aplicación ofrece una experiencia inmersiva para 
+                    los aficionados a Pokémon.</p>
+                    {/* iconos */}
+                    <div className="flex justify-around mt-5">
+                        <FontAwesomeIcon className="h-9 w-9 mr-2" icon={faJs} style={{color: "#3182ce"}} />
+                        <FontAwesomeIcon className="h-9 w-9 mr-2" icon={faReact} style={{color: "#3182ce"}} />
+                        <img className="h-9 w-9" src={logoVite} alt="logo vite" />
+                        <img className="h-9 w-9" src={tailwindLogo} alt="logo tailwind" />
+                    </div>
+                </div>
+            </div>
 
     </div>
   )
