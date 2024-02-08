@@ -96,11 +96,9 @@ const Card = () => {
                     </a>
 
                     <p className="text-sm my-2 text-cod-gray-900">
-                    Proyecto Pokémon, consumí la API pública de Pokémon para crear una experiencia interactiva. 
-                    Dividí la página en tres rutas distintas que permiten explorar, seleccionar y gestionar 
-                    Pokémon. Desde la visualización de cards con detalles completos hasta la posibilidad de 
-                    construir tu equipo personalizado, esta aplicación ofrece una experiencia inmersiva para 
-                    los aficionados a Pokémon. </p>
+                    Este proyecto es un planificador de gastos personales. Define un presupuesto y añade gastos 
+                    (comida, ocio, salud, casa, ahorro o varios). Visualiza gráficos de porcentaje gastado y dinero disponible. 
+                    Filtra gastos por categoría y reinicia la aplicación según necesites. Basado en curso de Udemy </p>
                     {/* iconos */}
                     <div className="flex justify-around mt-5">
                         <FontAwesomeIcon className="h-9 w-9 mr-2" icon={faJs} style={{color: "#3182ce"}} />
