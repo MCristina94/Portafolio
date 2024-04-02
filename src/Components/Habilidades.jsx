@@ -17,6 +17,7 @@ const Habilidades = () => {
                 <h3 className="text-cod-gray-purpura-conoceme text-2xl font-bold  text-center sm:text-left">Maquetación Web</h3>
             </div>
            <div className="flex lg:flex-row mt-5 items-center justify-center lg:justify-between">
+                
                 <img src={html} alt="html" className= "h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"/>
                 <img src={css} alt="css" className= "h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"/>
                 <img src={tailwind} alt="tailwind" className= "h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10" />

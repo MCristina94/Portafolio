@@ -41,7 +41,8 @@ export default {
           'header-color-Orange': '#cf7f57',
           'header-color-Menta': '#90d5c3',
           'purpura-conoceme': '#6d40ae',
-          'purpura-footer' : '#f8f7fc'
+          'purpura-footer' : '#f8f7fc',
+          'purpura-border': 'rgba(109, 64, 174, 0.5)'
         },
       },
     },

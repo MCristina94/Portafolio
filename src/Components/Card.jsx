@@ -15,9 +15,10 @@ const Card = () => {
     <div className="flex flex-col items-center justify-between mt-10">
       {/* Card 1 */}
       
-        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95" 
+        style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '0 15px 15px 0'}}>
                 
-            <div className="2xl:w-1/2 2xl:ml-20 mr-8">
+            <div className="2xl:w-1/2 2xl:ml-20 mr-8 ">
                 <a href="https://finalproject-frontend3-maureen.vercel.app/" target='_blank'>
                     <img className="h-28  sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 2xl:w-64 rounded-md" src={proyectoFront} alt="img proyecto final front" />
                 </a>
@@ -46,7 +47,8 @@ const Card = () => {
 
       {/* Card 2 */}
       
-        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95" 
+        style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '0 15px 15px 0'}}>
             <div className="2xl:w-1/2 2xl:ml-20 mr-8">
                 <a href="https://project-adm-pacientes.vercel.app/" target='_blank'>
                     <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={proyectoPediatria} alt="img proyecto final front" />
@@ -80,7 +82,8 @@ const Card = () => {
 
        {/* Card 3 */}
       
-        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+        <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95" 
+        style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '0 15px 15px 0'}}>
                 <div className="2xl:w-1/2 2xl:ml-20 mr-8">
                 <a href="https://project-presupuestos.vercel.app/" target='_blank'>
                     <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={proyectoGastos} alt="img proyecto final front" />
@@ -110,7 +113,8 @@ const Card = () => {
         
          {/* Card 4 */}
       
-         <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 rounded-md" style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}}>
+         <div className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10  hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95" 
+         style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', borderRadius: '0 15px 15px 0'}}>
                 <div className="2xl:w-1/2 2xl:ml-20 mr-8">
                 <a href="https://pokemon-sigma-flax.vercel.app/" target='_blank'>
                     <img className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md" src={pokemon} alt="pokemon" />
