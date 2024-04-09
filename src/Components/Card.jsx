@@ -23,7 +23,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}
@@ -120,7 +120,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}
@@ -194,7 +194,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}
@@ -264,7 +264,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}
@@ -341,7 +341,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}
@@ -417,7 +417,7 @@ const Card = () => {
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10  hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f6f6f9",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           borderRadius: "0 15px 15px 0",
         }}

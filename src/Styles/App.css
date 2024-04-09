@@ -1,3 +1,4 @@
 body{
-    background-color: #e6e4ef;
+    background: rgb(230,228,239);
+background: radial-gradient(circle, rgba(230,228,239,1) 0%, rgba(210,207,249,0.7259278711484594) 50%, rgba(237,229,222,1) 100%);
 }

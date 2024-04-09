@@ -2,7 +2,7 @@
 const Conoceme = () => {
   return (
     <div className="flex items-center mt-10 p-8 rounded-md">
-      <div className="mb-10 mt-10 p-8 rounded-md lg:mr-4 sm:items-center"style={{backgroundColor: '#ffffff', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}} >
+      <div className="mb-10 mt-10 p-8 rounded-md lg:mr-4 sm:items-center"style={{backgroundColor: '#f6f6f9', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'}} >
         <div>
           <h2 className=" text-cod-gray-purpura-conoceme font-bold mb-8 text-2xl">Proyectos Futuros e Intereses</h2>
           <p className="text-cod-gray-900">
