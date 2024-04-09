@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import fotoPerfil from "../img/FotoPerfil.png";
 import iconoM from "../img/iconoM.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,9 +9,12 @@ import usaFlag from '../img/usa.jpg'
 
 const Header = () => {
   const { language, toggleLanguage } = useContext(LanguageContext);
-  
+  const [selectBoton, setSelectBoton] = useState(null);
+
+
   const handleToggleLanguage = (lang) => {
     toggleLanguage(lang);
+    setSelectBoton(lang);
   };
   
   return (
@@ -27,13 +30,14 @@ const Header = () => {
             </h3>
             <button
               onClick={() => handleToggleLanguage("english")}
-              className="w-8"
+              className={`w-8 active:transform active:scale-95 ${selectBoton === "english" ? '' : 'opacity-50'}`}
             >
-              <img src={usaFlag} alt="USA" className="h-6 w-6 rounded-full"/>
+              <img src={usaFlag} alt="USA" 
+              className="h-6 w-6 rounded-full"/>
             </button>
             <button
               onClick={() => handleToggleLanguage("spanish")}
-              className="w-8"
+              className={`w-8 active:transform active:scale-95 ${selectBoton === "spanish" ? '' : 'opacity-50'}`}
             >
               <img src={colFlag} alt="COL" className="h-6 w-6 rounded-full"/>
             </button>
