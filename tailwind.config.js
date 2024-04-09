@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
     extend: {
+      fontSize:{
+        'xxs': '0.25rem',
+      },
       backgroundColor: {
         'header-color': '#1A1525',
         

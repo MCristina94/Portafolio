@@ -12,8 +12,8 @@ import proyectoPediatria from "../img/Pediatria.png";
 import proyectoBackend from "../img/proyectoBakend.png";
 import pokemon from "../img/pokemon.png";
 import coachConnect from "../img/CoachConnect.png";
-import mavenLogo from '../img/maven.png'
-import springBootLogo from '../img/SpringBoot.png'
+import mavenLogo from "../img/maven.png";
+import springBootLogo from "../img/SpringBoot.png";
 
 const Card = () => {
   return (
@@ -241,15 +241,20 @@ const Card = () => {
             </div>
           </a>
           <p className=" text-sm my-2 text-cod-gray-900">
-            Proyecto Backend con Java y SpringBoot, gestiona reserva de citas odontologícas entre profesional y paciente, aprovecha
-            la base de datos de H2, la aplicación se adhiere al patrón DAO establecido para la persistencia de datos.{" "}
+            Proyecto Backend con Java y SpringBoot, gestiona reserva de citas
+            odontologícas entre profesional y paciente, aprovecha la base de
+            datos de H2, la aplicación se adhiere al patrón DAO establecido para
+            la persistencia de datos.{" "}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
             <img className="h-9 w-9" src={javaLogo} alt="logo java" />
-            <img className="h-9 w-9" src={springBootLogo} alt="logo SpringBoot" />
+            <img
+              className="h-9 w-9"
+              src={springBootLogo}
+              alt="logo SpringBoot"
+            />
             <img className="h-9 w-9" src={mavenLogo} alt="logo maven" />
-            
           </div>
         </div>
       </div>
