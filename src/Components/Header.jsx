@@ -9,7 +9,7 @@ import usaFlag from '../img/usa.jpg'
 
 const Header = () => {
   const { language, toggleLanguage } = useContext(LanguageContext);
-  const [selectBoton, setSelectBoton] = useState(null);
+  const [selectBoton, setSelectBoton] = useState("english");
 
 
   const handleToggleLanguage = (lang) => {
