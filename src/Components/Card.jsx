@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs, faReact, faGithub } from "@fortawesome/free-brands-svg-icons";
 import logoVite from "../img/vite.svg";
@@ -14,8 +14,15 @@ import pokemon from "../img/pokemon.png";
 import coachConnect from "../img/CoachConnect.png";
 import mavenLogo from "../img/maven.png";
 import springBootLogo from "../img/SpringBoot.png";
+import { LanguageContext } from "../Context/LanguageProvider";
+import text from "../text/text.json";
 
 const Card = () => {
+  const { language, toggleLanguage } = useContext(LanguageContext);
+  const projectText =
+    language === "english"
+      ? text[1].projectsCards.english
+      : text[1].projectsCards.spanish;
   return (
     <div className="flex flex-col items-center justify-between mt-10">
       {/* Card 1 */}
@@ -56,7 +63,7 @@ const Card = () => {
         <div className="2xl:w-1/2 2xl:mr-20">
           <div className="flex justify-center items-center">
             <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl">
-              CoachConnect
+              {language === "english" ? "CoachConnect" : "CoachConnect"}
             </h3>
           </div>
 
@@ -89,10 +96,7 @@ const Card = () => {
           </div>
 
           <p className=" text-sm my-2 text-cod-gray-900">
-            Proyecto colaborativo Certified Tech Developer: reserva de tutorías,
-            visualización de tutorías con detalles, fechas disponibles, reseñas,
-            gestión de usuarios y administración del sitio web. Mi rol: Bases de
-            datos en Mysql, Infraestructura en React y apoyo al Frontend.{" "}
+            {projectText.coachconnect}
           </p>
 
           {/* iconos */}
@@ -157,7 +161,7 @@ const Card = () => {
           >
             <div className="flex justify-center items-center">
               <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
-                Dental Clinic
+                {language === "english" ? "Dental Clinic" : "Clinica Dental"}
               </h3>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -167,10 +171,7 @@ const Card = () => {
             </div>
           </a>
           <p className=" text-sm my-2 text-cod-gray-900">
-            Proyecto Frontend con React y Vite. Creé una web de odontólogos con
-            tarjetas para explorar, agregar a favoritos y obtener detalles.
-            Incluye sección de contacto con formulario para comunicación rápida.
-            Interfaz dinámica para experiencia eficiente y atractiva.{" "}
+            {projectText.dentalClinic}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
@@ -231,7 +232,9 @@ const Card = () => {
           >
             <div className="flex justify-center items-center">
               <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
-                Reserva Odontologica - Backend
+                {language === "english"
+                  ? "Dental Reserve - Backend"
+                  : "Reserva Odontologica - Backend"}
               </h3>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -241,10 +244,7 @@ const Card = () => {
             </div>
           </a>
           <p className=" text-sm my-2 text-cod-gray-900">
-            Proyecto Backend con Java y SpringBoot, gestiona reserva de citas
-            odontologícas entre profesional y paciente, aprovecha la base de
-            datos de H2, la aplicación se adhiere al patrón DAO establecido para
-            la persistencia de datos.{" "}
+            {projectText.dentalBE}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
@@ -301,7 +301,9 @@ const Card = () => {
           >
             <div className="flex justify-center items-center">
               <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
-                Registro de Pacientes
+                {language === "english"
+                  ? "Patient Registration"
+                  : "Registro Pacientes"}
               </h3>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -312,11 +314,7 @@ const Card = () => {
           </a>
 
           <p className="text-sm my-2 text-cod-gray-900">
-            Proyecto React: Registro y Gestión de Pacientes Creado en un curso
-            de Udemy, este proyecto simplifica el registro, visualización y
-            modificación de información de pacientes. Interfaz intuitiva para
-            una experiencia eficiente. ¡Administre datos de pacientes de manera
-            fácil y rápida!{" "}
+            {projectText.pacientRegis}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
@@ -378,7 +376,9 @@ const Card = () => {
           >
             <div className="flex justify-center items-center">
               <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
-                Planificador de Gastos
+                {language === "english"
+                  ? "Expense Planner"
+                  : "Planificador de Gastos"}
               </h3>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -389,11 +389,7 @@ const Card = () => {
           </a>
 
           <p className="text-sm my-2 text-cod-gray-900">
-            Este proyecto es un planificador de gastos personales. Define un
-            presupuesto y añade gastos (comida, ocio, salud, casa, ahorro o
-            varios). Visualiza gráficos de porcentaje gastado y dinero
-            disponible. Filtra gastos por categoría y reinicia la aplicación
-            según necesites. Basado en curso de Udemy{" "}
+            {projectText.planner}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
@@ -451,7 +447,7 @@ const Card = () => {
           <a href="https://github.com/MCristina94/Pokemon" target="_blank">
             <div className="flex justify-center items-center">
               <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
-                Pokemón
+                {language === "english" ? "Pokemon" : "Pokemón"}
               </h3>
               <FontAwesomeIcon
                 icon={faGithub}
@@ -462,12 +458,7 @@ const Card = () => {
           </a>
 
           <p className="text-sm my-2 text-cod-gray-900">
-            Proyecto Pokémon, consumí la API pública de Pokémon para crear una
-            experiencia interactiva. Dividí la página en tres rutas distintas
-            que permiten explorar, seleccionar y gestionar Pokémon. Desde la
-            visualización de cards con detalles completos hasta la posibilidad
-            de construir tu equipo personalizado, esta aplicación ofrece una
-            experiencia inmersiva para los aficionados a Pokémon.
+            {projectText.pokemon}
           </p>
           {/* iconos */}
           <div className="flex justify-around mt-5">
