@@ -9,6 +9,11 @@ import usaFlag from '../img/usa.jpg'
 
 const Header = () => {
   const { language, toggleLanguage } = useContext(LanguageContext);
+  
+  const handleToggleLanguage = (lang) => {
+    toggleLanguage(lang);
+  };
+  
   return (
     <div>
       <div
@@ -21,14 +26,16 @@ const Header = () => {
               {language === "english" ? "EN" : "ES"}
             </h3>
             <button
-              onClick={toggleLanguage}
-              className="w-8 "
+              onClick={() => handleToggleLanguage("english")}
+              className="w-8"
             >
-              {language === "english" ? 
-              <img src={usaFlag} alt="COL"/>
-              :
-              <img src={colFlag} alt="USA"/>
-              }
+              <img src={usaFlag} alt="USA" className="h-6 w-6 rounded-full"/>
+            </button>
+            <button
+              onClick={() => handleToggleLanguage("spanish")}
+              className="w-8"
+            >
+              <img src={colFlag} alt="COL" className="h-6 w-6 rounded-full"/>
             </button>
           </div>
         </div>

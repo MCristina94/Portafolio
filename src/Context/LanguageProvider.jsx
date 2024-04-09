@@ -8,9 +8,9 @@ function LanguageProvider({children}){
     const [language, setLanguage] = useState('english');
 
     //funcion para cambiar el idioma
-    const toggleLanguage = () => {
-        setLanguage(prevLanguage => (prevLanguage === 'english' ? 'spanish' : 'english'));
-    };
+    const toggleLanguage = (lang) => {
+        setLanguage(lang);
+      };
 
     //2. proveer el contexto
     return(
