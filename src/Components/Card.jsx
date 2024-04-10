@@ -12,6 +12,7 @@ import proyectoPediatria from "../img/Pediatria.png";
 import proyectoBackend from "../img/proyectoBakend.png";
 import pokemon from "../img/pokemon.png";
 import coachConnect from "../img/CoachConnect.png";
+import harryPotter from '../img/harryPotter.png'
 import mavenLogo from "../img/maven.png";
 import springBootLogo from "../img/SpringBoot.png";
 import { LanguageContext } from "../Context/LanguageProvider";
@@ -26,7 +27,6 @@ const Card = () => {
   return (
     <div className="flex flex-col items-center justify-between mt-10">
       {/* Card 1 */}
-
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
@@ -409,6 +409,76 @@ const Card = () => {
       </div>
 
       {/* Card 7 */}
+
+      <div
+        className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10  hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
+        style={{
+          backgroundColor: "#f6f6f9",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+          borderRadius: "0 15px 15px 0",
+        }}
+      >
+        <div className="2xl:w-1/2 2xl:ml-20 mr-8 relative">
+          <a
+            href="https://harry-potter-ivory.vercel.app/"
+            target="_blank"
+            className="block"
+          >
+            <div className="relative">
+              <img
+                className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md"
+                src={harryPotter}
+                alt="harryPotter"
+              />
+
+              <div
+                className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
+              h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md"
+              >
+                <span className="text-white text-lg font-semibold">
+                  Ver pag.
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div className="2xl:w-1/2 2xl:mr-20">
+          <a href="https://github.com/MCristina94/HarryPotter" target="_blank">
+            <div className="flex justify-center items-center">
+              <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
+                {language === "english" ? "Harry Potter" : "Harry Potter"}
+              </h3>
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ color: " #2563EB" }}
+                className="mt-2 w-6 h-6  hover:text-cod-gray-purpura-conoceme"
+              />
+            </div>
+          </a>
+
+          <p className="text-sm my-2 text-cod-gray-900">
+            {projectText.harryPotter}
+          </p>
+          {/* iconos */}
+          <div className="flex justify-around mt-5">
+            <FontAwesomeIcon
+              className="h-9 w-9 mr-2"
+              icon={faJs}
+              style={{ color: "#3182ce" }}
+            />
+            <FontAwesomeIcon
+              className="h-9 w-9 mr-2"
+              icon={faReact}
+              style={{ color: "#3182ce" }}
+            />
+            <img className="h-9 w-9" src={logoVite} alt="logo vite" />
+            
+          </div>
+        </div>
+      </div>
+
+      {/* Card 8 */}
 
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10  hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"

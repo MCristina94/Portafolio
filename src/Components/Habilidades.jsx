@@ -11,6 +11,7 @@ import mysql from "../img/mysql.webp";
 import springboot from "../img/SpringBoot.png"
 import git from '../img/Git.png'
 import gitHub from '../img/gitHub.png'
+import mavenLogo from '../img/maven.png'
 
 import { LanguageContext } from "../Context/LanguageProvider";
 
@@ -240,8 +241,6 @@ const Habilidades = () => {
         </div>
       </div>
 
-      
-
       <div className="flex flex-col sm:flex-row my-4 sm:my-10">
         <div className="w-full sm:w-40 mr-4 sm:mr-28 mt-5">
           <h3 className="text-cod-gray-purpura-conoceme text-2xl font-bold text-center sm:text-left">
@@ -266,6 +265,7 @@ const Habilidades = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
