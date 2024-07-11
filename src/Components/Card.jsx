@@ -14,6 +14,7 @@ import pokemon from "../img/pokemon.png";
 import coachConnect from "../img/CoachConnect.png";
 import harryPotter from '../img/harryPotter.png'
 import mavenLogo from "../img/maven.png";
+import rickMorty from "../img/RickMorty.png"
 import springBootLogo from "../img/SpringBoot.png";
 import { LanguageContext } from "../Context/LanguageProvider";
 import text from "../text/text.json";
@@ -26,7 +27,82 @@ const Card = () => {
       : text[1].projectsCards.spanish;
   return (
     <div className="flex flex-col items-center justify-between mt-10">
-      {/* Card 1 */}
+    {/* Card 1 */}
+
+    <div
+        className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
+        style={{
+          backgroundColor: "#f6f6f9",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+          borderRadius: "0 15px 15px 0",
+        }}
+      >
+        <div className="2xl:w-1/2 2xl:ml-20 mr-8 relative">
+          <a
+            href="https://rickandmorty-8rsh30706-maureens-projects-42a21fd4.vercel.app/"
+            target="_blank"
+            className="block"
+          >
+            <div className="relative">
+              <img
+                className="h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md"
+                src={rickMorty}
+                alt="Rick and Morty"
+              />
+
+              <div
+                className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
+              h-28 sm:h-28 lg:h-32 xl:h-44 w-36 sm:w-40 lg:w-48 xl:w-64 rounded-md"
+              >
+                <span className="text-white text-lg font-semibold">
+                  Ver pag.
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div className="2xl:w-1/2 2xl:mr-20">
+          <a
+            href="https://github.com/MCristina94/Prueba-tecnica-react"
+            target="_blank"
+          >
+            <div className="flex justify-center items-center">
+              <h3 className="text-blue-600 font-bold text-center mr-5 my-2 text-xl hover:text-cod-gray-purpura-conoceme">
+                {language === "english"
+                  ? "Rick and Morty"
+                  : "Rick and Morty"}
+              </h3>
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ color: " #2563EB" }}
+                className="mt-2 w-6 h-6  hover:text-cod-gray-purpura-conoceme"
+              />
+            </div>
+          </a>
+
+          <p className="text-sm my-2 text-cod-gray-900">
+            {projectText.rickmorty}
+          </p>
+          {/* iconos */}
+          <div className="flex justify-around mt-5">
+            <FontAwesomeIcon
+              className="h-9 w-9 mr-2"
+              icon={faJs}
+              style={{ color: "#3182ce" }}
+            />
+            <FontAwesomeIcon
+              className="h-9 w-9 mr-2"
+              icon={faReact}
+              style={{ color: "#3182ce" }}
+            />
+            <img className="h-9 w-9" src={logoVite} alt="logo vite" />
+            <img className="h-9 w-9" src={tailwindLogo} alt="logo tailwind" />
+          </div>
+        </div>
+      </div>
+
+      {/* Card 2 */}
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
         style={{
@@ -119,7 +195,7 @@ const Card = () => {
         </div>
       </div>
 
-      {/* Card 2 */}
+      {/* Card 3 */}
 
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
@@ -190,7 +266,7 @@ const Card = () => {
         </div>
       </div>
 
-      {/* Card 3 */}
+      {/* Card 4 */}
 
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"
@@ -259,7 +335,7 @@ const Card = () => {
         </div>
       </div>
 
-      {/* Card 4 */}
+      {/* Card 5 */}
 
       <div
         className="flex flex-col items-center 2xl:flex-row justify-center my-10 mx-10 p-10 hover:border-l-8  border-l-cod-gray-purpura-border hover:transform hover:scale-95"

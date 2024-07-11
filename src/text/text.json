@@ -13,6 +13,7 @@
 {
   "projectsCards": {
     "english": {
+      "rickmorty" : "For my Rick and Morty project, I consumed the public Rick and Morty API. I divided the page into four distinct routes that allow viewing character cards, locations, episodes, and a basic game. This application allows the use of a dropdown menu to select the gender of the characters you want to view. The page features pagination and data persistence.",
       "coachconnect" : "Collaborative project Certified Tech Developer: tutoring reservations, tutoring visualization with details, available dates, reviews, user management, and website administration. My role: MySQL database, React infrastructure, and frontend support.",
       "dentalClinic" : "Frontend project with React and Vite. I built a website for dentists featuring cards for exploration, adding to favorites, and obtaining details. It includes a contact section with a form for quick communication. Dynamic interface for an efficient and engaging experience.",
       "dentalBE" : "Backend project with Java and SpringBoot, managing dental appointment bookings between professionals and patients. It leverages the H2 database and adheres to the established DAO pattern for data persistence.",
@@ -23,6 +24,7 @@
     }, 
     
       "spanish": {
+        "rickmorty" : "Para mi proyecto de Rick and Morty, consumí la API pública de Rick and Morty. Dividí la página en cuatro rutas distintas que permiten visualizar tarjetas de personajes, localidades, episodios y un juego básico. Esta aplicación permite usar un menú desplegable para seleccionar el género de los personajes que deseas visualizar. La página cuenta con paginación y persistencia de datos.",
         "coachconnect" : "Proyecto colaborativo Certified Tech Developer: reserva de tutorías, visualización de tutorías con detalles, fechas disponibles, reseñas, gestión de usuarios y administración del sitio web. Mi rol: Bases de datos en Mysql, Infraestructura en React y apoyo al Frontend.",
         "dentalClinic" : "Proyecto Frontend con React y Vite. Creé una web de odontólogos con tarjetas para explorar, agregar a favoritos y obtener detalles. Incluye sección de contacto con formulario para comunicación rápida. Interfaz dinámica para experiencia eficiente y atractiva.",
         "dentalBE" : "Proyecto Backend con Java y SpringBoot, gestiona reserva de citas odontologícas entre profesional y paciente, aprovecha la base de datos de H2, la aplicación se adhiere al patrón DAO establecido para la persistencia de datos.",
