@@ -106,7 +106,7 @@ const Header = () => {
             </span>{" "}
             <span className="text-cod-gray-header-color-Orange">
               {" "}
-              "Front-End Developer"
+              "Web Development"
             </span>{" "}
             ,{" "}
           </p>
