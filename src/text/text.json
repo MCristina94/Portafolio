@@ -2,53 +2,53 @@
   {
     "aboutMeP": {
       "english": {
-        "p1" : "In the technical field, I have solid skills in HTML, CSS, JavaScript, and React, which allow me to create intuitive and attractive user interfaces. Additionally, I have a strong foundation in Java with Spring Boot, enabling me to develop robust and scalable applications. My basic knowledge of AWS infrastructure allows me to deploy and maintain applications in the cloud efficiently, while my experience with MySQL databases enables me to manage and optimize data effectively.",
-        "p2" : "I firmly believe in the idea that each day offers the opportunity to learn something new. My approach as an engineer is based on the philosophy of considering every problem as a learning opportunity."}, 
+        "p1": "In the technical field, I have strong skills in HTML, CSS, JavaScript, and React, allowing me to create intuitive and engaging user interfaces. Additionally, I have experience with Material UI and Tailwind CSS for modern interface design, as well as React Hook Form for efficient form management. I also have a solid foundation in Java with Spring Boot, enabling me to build robust and scalable applications. My basic knowledge of AWS allows me to deploy applications in the cloud, and my experience with MySQL helps me manage and optimize databases.",
+        "p2": "I firmly believe that each day presents an opportunity to learn something new. My approach as an engineer is based on the philosophy of viewing every problem as a learning opportunity."
+      },
       "spanish": {
-        "p1" : "En el ámbito técnico, poseo sólidas competencias en HTML, CSS, JavaScript y React, lo que me permite crear interfaces de usuario intuitivas y atractivas. Además, tengo una sólida base en Java con Spring Boot, lo que me capacita para desarrollar aplicaciones robustas y escalables. Mi conocimiento básico de infraestructura de AWS me permite desplegar y mantener aplicaciones en la nube de manera eficiente, mientras que mi experiencia en bases de datos MySQL me capacita para gestionar y optimizar datos de manera efectiva.",
-        "p2" : "Creo firmemente en la idea de que cada día ofrece la oportunidad de aprender algo nuevo. Mi enfoque como ingeniera se basa en la filosofía de considerar cada problema como una oportunidad de aprendizaje."}
+        "p1": "En el ámbito técnico, poseo sólidas competencias en HTML, CSS, JavaScript y React, lo que me permite crear interfaces de usuario intuitivas y atractivas. Además, tengo experiencia con Material UI y Tailwind CSS para el diseño de interfaces modernas, así como con React Hook Form para la gestión eficiente de formularios. También cuento con una sólida base en Java con Spring Boot, lo que me capacita para desarrollar aplicaciones robustas y escalables. Mi conocimiento básico de AWS me permite desplegar aplicaciones en la nube, y mi experiencia en MySQL me ayuda a gestionar y optimizar bases de datos.",
+        "p2": "Creo firmemente en la idea de que cada día ofrece la oportunidad de aprender algo nuevo. Mi enfoque como ingeniera se basa en la filosofía de considerar cada problema como una oportunidad de aprendizaje."
+      }
     }
-},
+  },
 
-{
-  "projectsCards": {
-    "english": {
-      "rickmorty" : "For my Rick and Morty project, I consumed the public Rick and Morty API. I divided the page into four distinct routes that allow viewing character cards, locations, episodes, and a basic game. This application allows the use of a dropdown menu to select the gender of the characters you want to view. The page features pagination and data persistence.",
-      "coachconnect" : "Collaborative project Certified Tech Developer: tutoring reservations, tutoring visualization with details, available dates, reviews, user management, and website administration. My role: MySQL database, React infrastructure, and frontend support.",
-      "dentalClinic" : "Frontend project with React and Vite. I built a website for dentists featuring cards for exploration, adding to favorites, and obtaining details. It includes a contact section with a form for quick communication. Dynamic interface for an efficient and engaging experience.",
-      "dentalBE" : "Backend project with Java and SpringBoot, managing dental appointment bookings between professionals and patients. It leverages the H2 database and adheres to the established DAO pattern for data persistence.",
-      "pacientRegis" : "React Project: Patient Registration and Management: Created in a Udemy course, this project simplifies the registration, visualization, and modification of patient information. It offers an intuitive interface for an efficient experience. Manage patient data easily and quickly!",
-      "planner" : "This project is a personal expense planner. You can define a budget and add expenses (such as food, leisure, health, housing, savings, or miscellaneous). Visualize graphs showing the percentage spent and the available money. You can also filter expenses by category and reset the application as needed. Based on a Udemy course.",
-      "pokemon" : "Pokemon Project: I utilized the public Pokemon API to create an interactive experience. I divided the page into three different routes that allow users to explore, select, and manage Pokemon. From viewing cards with comprehensive details to the ability to build your custom team, this application offers an immersive experience for Pokemon enthusiasts.",
-      "harryPotter" : "This website is developed in JavaScript with React to practice fetching APIs using fetch, along with useEffect and useState hooks. The website is focused on the Harry Potter universe and utilizes the free API available at https://hp-api.onrender.com/."
-    }, 
-    
-      "spanish": {
-        "rickmorty" : "Para mi proyecto de Rick and Morty, consumí la API pública de Rick and Morty. Dividí la página en cuatro rutas distintas que permiten visualizar tarjetas de personajes, localidades, episodios y un juego básico. Esta aplicación permite usar un menú desplegable para seleccionar el género de los personajes que deseas visualizar. La página cuenta con paginación y persistencia de datos.",
-        "coachconnect" : "Proyecto colaborativo Certified Tech Developer: reserva de tutorías, visualización de tutorías con detalles, fechas disponibles, reseñas, gestión de usuarios y administración del sitio web. Mi rol: Bases de datos en Mysql, Infraestructura en React y apoyo al Frontend.",
-        "dentalClinic" : "Proyecto Frontend con React y Vite. Creé una web de odontólogos con tarjetas para explorar, agregar a favoritos y obtener detalles. Incluye sección de contacto con formulario para comunicación rápida. Interfaz dinámica para experiencia eficiente y atractiva.",
-        "dentalBE" : "Proyecto Backend con Java y SpringBoot, gestiona reserva de citas odontologícas entre profesional y paciente, aprovecha la base de datos de H2, la aplicación se adhiere al patrón DAO establecido para la persistencia de datos.",
-        "pacientRegis" : "Proyecto React: Registro y Gestión de Pacientes Creado en un curso de Udemy, este proyecto simplifica el registro, visualización y modificación de información de pacientes. Interfaz intuitiva para una experiencia eficiente. ¡Administre datos de pacientes de manera fácil y rápida!",
-        "planner" : "Este proyecto es un planificador de gastos personales. Define un presupuesto y añade gastos (comida, ocio, salud, casa, ahorro o varios). Visualiza gráficos de porcentaje gastado y dinero disponible. Filtra gastos por categoría y reinicia la aplicación según necesites. Basado en curso de Udemy",
-        "pokemon" : "Proyecto Pokémon, consumí la API pública de Pokémon para crear una experiencia interactiva. Dividí la página en tres rutas distintas que permiten explorar, seleccionar y gestionar Pokémon. Desde la visualización de cards con detalles completos hasta la posibilidad de construir tu equipo personalizado, esta aplicación ofrece una experiencia inmersiva para los aficionados a Pokémon.",
-        "harryPotter": "Esta pagina web esta desarrollada en JavaScript con React para practicar el consumo de APIs utilizando fetch, junto con useEffect y useState. Esta página está centrada en el universo de Harry Potter y utiliza la API gratuita disponible en https://hp-api.onrender.com/."
-      }
-  }
-},
+  {
+    "projectsCards": {
+      "english": {
+        "travelBlog": "A React-based project that consumes the public APIs of Pexels and RestCountries. It allows users to explore a photo gallery of cities and countries, search for images by city name or keyword, and view cards with relevant information about different countries. The platform offers search options by currency, language, capital, or country name, providing an interactive and enriching experience for travel enthusiasts.",
+        "coachconnect": "Collaborative project Certified Tech Developer: tutoring reservations, tutoring visualization with details, available dates, reviews, user management, and website administration. My role: MySQL database, React infrastructure, and frontend support.",
+        "dentalClinic": "Frontend project with React and Vite. I built a website for dentists featuring cards for exploration, adding to favorites, and obtaining details. It includes a contact section with a form for quick communication. Dynamic interface for an efficient and engaging experience.",
+        "dentalBE": "Backend project with Java and SpringBoot, managing dental appointment bookings between professionals and patients. It leverages the H2 database and adheres to the established DAO pattern for data persistence.",
+        "pacientRegis": "React Project: Patient Registration and Management: Created in a Udemy course, this project simplifies the registration, visualization, and modification of patient information. It offers an intuitive interface for an efficient experience. Manage patient data easily and quickly!",
+        "planner": "This project is a personal expense planner. You can define a budget and add expenses (such as food, leisure, health, housing, savings, or miscellaneous). Visualize graphs showing the percentage spent and the available money. You can also filter expenses by category and reset the application as needed. Based on a Udemy course.",
+        "rickmorty": "For my Rick and Morty project, I consumed the public Rick and Morty API. I divided the page into four distinct routes that allow viewing character cards, locations, episodes, and a basic game. This application allows the use of a dropdown menu to select the gender of the characters you want to view. The page features pagination and data persistence."
+      },
 
-{
-  "hobbies": {
-    "english": {
-      "goals" : "I aspire to become a prominent female developer, staying updated on trends and seeking collaboration to tackle challenges and grow in both frontend and backend development. My goal is to learn from industry leaders, engage with communities, and develop innovative projects. Committed to continuous learning and mentoring.",
-      "techH" : "In my free time, I learn from technology content creators, especially in frontend and JavaScript, through videos. I take online courses to enrich my skills and follow influencers on Instagram to stay updated. I constantly practice by creating applications with themes that interest me.",
-      "personalH" : "I enjoy sharing moments with my family and the excitement of choosing movies at the cinema at the last minute. In my free time, I love learning about different places in my country, exploring its typical cuisine, and I've also developed a taste for coffee and its various presentations. I enjoy playing board games where I can practice agility or express my creativity. I also enjoy painting and cooking desserts."
-      }, 
-    
       "spanish": {
-        "goals" : "Deseo ser una mujer desarrolladora destacada, procuro estar al tanto de tendencias. Busco colaborar, enfrentar desafíos para crecer en frontend y backend. Mi objetivo: aprender de líderes, participar en comunidades y desarrollar proyectos innovadores. Comprometida con el aprendizaje continuo y la mentoría.",
-        "techH" : "En mi tiempo libre, aprendo de creadores de contenido en tecnología, especialmente en frontend y JavaScript, a través de videos. Realizo cursos online para enriquecer mis habilidades y sigo influencers en Instagram para mantenerme actualizada, practico constantemente realizando aplicaciones con temas de mi interes.",
-        "personalH" : "Disfruto compartir momentos con mi familia y la emoción de elegir películas en el cine a último minuto. En mi tiempo libre disfruto conocer sobre diferentes lugares de mi pais, conocer sobre su comida tipica, y ademas he adquirido un gusto por el café y sus diferentes presentaciones. Me gusta jugar juegos de mesa donde pueda practicar agilidad o expresar mi creatividad. Disfruto pintar y cocinar postres."
+        "travelBlog": "Proyecto desarrollado en React que consume las APIs públicas de Pexels y RestCountries. Permite explorar una galería de fotos de ciudades y países, buscar imágenes por nombre de ciudad o palabra clave, y visualizar tarjetas con información relevante de distintos países. Ofrece opciones de búsqueda por moneda, idioma, capital o nombre del país, brindando una experiencia interactiva y enriquecedora para los amantes de los viajes.",
+        "coachconnect": "Proyecto colaborativo Certified Tech Developer: reserva de tutorías, visualización de tutorías con detalles, fechas disponibles, reseñas, gestión de usuarios y administración del sitio web. Mi rol: Bases de datos en Mysql, Infraestructura en React y apoyo al Frontend.",
+        "dentalClinic": "Proyecto Frontend con React y Vite. Creé una web de odontólogos con tarjetas para explorar, agregar a favoritos y obtener detalles. Incluye sección de contacto con formulario para comunicación rápida. Interfaz dinámica para experiencia eficiente y atractiva.",
+        "dentalBE": "Proyecto Backend con Java y SpringBoot, gestiona reserva de citas odontologícas entre profesional y paciente, aprovecha la base de datos de H2, la aplicación se adhiere al patrón DAO establecido para la persistencia de datos.",
+        "pacientRegis": "Proyecto React: Registro y Gestión de Pacientes Creado en un curso de Udemy, este proyecto simplifica el registro, visualización y modificación de información de pacientes. Interfaz intuitiva para una experiencia eficiente. ¡Administre datos de pacientes de manera fácil y rápida!",
+        "planner": "Este proyecto es un planificador de gastos personales. Define un presupuesto y añade gastos (comida, ocio, salud, casa, ahorro o varios). Visualiza gráficos de porcentaje gastado y dinero disponible. Filtra gastos por categoría y reinicia la aplicación según necesites. Basado en curso de Udemy",
+        "rickmorty": "Para mi proyecto de Rick and Morty, consumí la API pública de Rick and Morty. Dividí la página en cuatro rutas distintas que permiten visualizar tarjetas de personajes, localidades, episodios y un juego básico. Esta aplicación permite usar un menú desplegable para seleccionar el género de los personajes que deseas visualizar. La página cuenta con paginación y persistencia de datos."
       }
+    }
+  },
+
+  {
+    "hobbies": {
+      "english": {
+        "goals": "I aspire to become a prominent female developer, staying updated on trends and seeking collaboration to tackle challenges and grow in both frontend and backend development. My goal is to learn from industry leaders, engage with communities, and develop innovative projects. Committed to continuous learning and mentoring.",
+        "techH": "In my free time, I learn from technology content creators, especially in frontend and JavaScript, through videos. I take online courses to enrich my skills and follow influencers on Instagram to stay updated. I constantly practice by creating applications with themes that interest me.",
+        "personalH": "I enjoy sharing moments with my family and the excitement of choosing movies at the cinema at the last minute. In my free time, I love learning about different places in my country, exploring its typical cuisine, and I've also developed a taste for coffee and its various presentations. I enjoy playing board games where I can practice agility or express my creativity. I also enjoy painting and cooking desserts."
+      },
+
+      "spanish": {
+        "goals": "Deseo ser una mujer desarrolladora destacada, procuro estar al tanto de tendencias. Busco colaborar, enfrentar desafíos para crecer en frontend y backend. Mi objetivo: aprender de líderes, participar en comunidades y desarrollar proyectos innovadores. Comprometida con el aprendizaje continuo y la mentoría.",
+        "techH": "En mi tiempo libre, aprendo de creadores de contenido en tecnología, especialmente en frontend y JavaScript, a través de videos. Realizo cursos online para enriquecer mis habilidades y sigo influencers en Instagram para mantenerme actualizada, practico constantemente realizando aplicaciones con temas de mi interes.",
+        "personalH": "Disfruto compartir momentos con mi familia y la emoción de elegir películas en el cine a último minuto. En mi tiempo libre disfruto conocer sobre diferentes lugares de mi pais, conocer sobre su comida tipica, y ademas he adquirido un gusto por el café y sus diferentes presentaciones. Me gusta jugar juegos de mesa donde pueda practicar agilidad o expresar mi creatividad. Disfruto pintar y cocinar postres."
+      }
+    }
   }
-}
 ]
