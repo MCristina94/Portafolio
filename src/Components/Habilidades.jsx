@@ -8,15 +8,16 @@ import tailwind from "../img/Tailwind_CSS_Logo.svg.png";
 import vsc from "../img/vsc.png";
 import intellij from "../img/intelliji.png";
 import mysql from "../img/mysql.webp";
-import springboot from "../img/SpringBoot.png"
-import git from '../img/Git.png'
-import gitHub from '../img/gitHub.png'
-import mavenLogo from '../img/maven.png'
+import springboot from "../img/SpringBoot.png";
+import git from "../img/Git.png";
+import gitHub from "../img/gitHub.png";
+import materialUI from "../img/material-ui-icon.png";
+import reactHookForm from "../img/react-hook-form-logo-only.png";
 
 import { LanguageContext } from "../Context/LanguageProvider";
 
 const Habilidades = () => {
-  const { language} = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
   return (
     <div className="mx-4 sm:mx-10 md:mx-16 lg:mx-20 xl:mx-10">
       <div className="flex flex-col sm:flex-row my-4 sm:my-10">
@@ -53,32 +54,18 @@ const Habilidades = () => {
               <span className="text-white text-lg font-semibold">CSS</span>
             </div>
           </div>
-
-          <div className="relative">
-            <img
-              src={tailwind}
-              alt="tailwind"
-              className="h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
-            />
-            <div
-              className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
-                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
-            >
-              <span className="text-white text-xs font-semibold">Tailwind</span>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row my-4 sm:my-10 mt-5">
-        <div className="w-full sm:w-40 mr-4 sm:mr-28">
-          <h3 className="text-cod-gray-purpura-conoceme text-2xl font-bold text-center sm:text-left">
+      <div className="flex flex-col sm:flex-row my-4 sm:my-10">
+        <div className="w-full sm:w-40 mr-4 sm:mr-28 mt-5">
+          <h3 className="text-cod-gray-purpura-conoceme text-2xl font-bold  text-center sm:text-left">
             {language === "english"
               ? "Libraries and Frameworks"
               : "Librerias y Frameworks"}
           </h3>
         </div>
-        <div className="flex mt-5 lg:flex-row items-center justify-center lg:justify-between">
+        <div className="flex lg:flex-row mt-5 items-center justify-center lg:justify-between">
           <div className="relative">
             <img
               src={react}
@@ -89,13 +76,26 @@ const Habilidades = () => {
               className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
                 h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
             >
-              <span className="text-white text-s font-semibold text-center ">
-                React
+              <span className="text-white text-lg font-semibold">React</span>
+            </div>
+          </div>
+
+          <div className="relative">
+            <img
+              src={reactHookForm}
+              alt="React hook form"
+              className="h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            />
+            <div
+              className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
+                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            >
+              <span className="text-white text-xs font-semibold text-center ">
+                React Hook Form
               </span>
             </div>
           </div>
-        </div>
-        <div className="flex mt-5 lg:flex-row items-center justify-center lg:justify-between">
+
           <div className="relative">
             <img
               src={springboot}
@@ -109,6 +109,47 @@ const Habilidades = () => {
               <span className="text-white text-s font-semibold text-center ">
                 Spring Boot
               </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col sm:flex-row my-4 sm:my-10">
+        <div className="w-full sm:w-40 mr-4 sm:mr-28 mt-5">
+          <h3 className="text-cod-gray-purpura-conoceme text-2xl font-bold  text-center sm:text-left">
+            {language === "english"
+              ? "UI Frameworks & Styling"
+              : "Frameworks y Estilos para UI"}
+          </h3>
+        </div>
+        <div className="flex lg:flex-row mt-5 items-center justify-center lg:justify-between">
+          <div className="relative">
+            <img
+              src={materialUI}
+              alt="Material UI"
+              className="h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            />
+            <div
+              className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
+                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            >
+              <span className="text-white text-xs font-semibold text-center ">
+                Material UI
+              </span>
+            </div>
+          </div>
+
+          <div className="relative">
+            <img
+              src={tailwind}
+              alt="tailwind"
+              className="h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            />
+            <div
+              className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
+                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
+            >
+              <span className="text-white text-xs font-semibold">Tailwind</span>
             </div>
           </div>
         </div>
@@ -265,7 +306,6 @@ const Habilidades = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
