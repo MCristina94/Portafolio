@@ -15,6 +15,7 @@
   {
     "projectsCards": {
       "english": {
+        "spotify": "This is a clone of the Home view of Spotify, developed with React and Tailwind CSS, replicating its original design in a responsive way. It features a responsive design adapted to different screen sizes, dynamic data loading from a JSON file, and reusable components for song and artist cards.",
         "travelBlog": "A React-based project that consumes the public APIs of Pexels and RestCountries. It allows users to explore a photo gallery of cities and countries, search for images by city name or keyword, and view cards with relevant information about different countries. The platform offers search options by currency, language, capital, or country name, providing an interactive and enriching experience for travel enthusiasts.",
         "coachconnect": "Collaborative project Certified Tech Developer: tutoring reservations, tutoring visualization with details, available dates, reviews, user management, and website administration. My role: MySQL database, React infrastructure, and frontend support.",
         "dentalClinic": "Frontend project with React and Vite. I built a website for dentists featuring cards for exploration, adding to favorites, and obtaining details. It includes a contact section with a form for quick communication. Dynamic interface for an efficient and engaging experience.",
@@ -25,6 +26,7 @@
       },
 
       "spanish": {
+        "spotify": "Este es un clon de la vista Home de Spotify, desarrollado con React y Tailwind CSS, replicando su diseño original de manera responsiva. Características: Diseño responsivo adaptado a diferentes tamaños de pantalla, Carga dinámica de datos desde un archivo JSON, Componentes reutilizables para tarjetas de canciones y artistas.",
         "travelBlog": "Proyecto desarrollado en React que consume las APIs públicas de Pexels y RestCountries. Permite explorar una galería de fotos de ciudades y países, buscar imágenes por nombre de ciudad o palabra clave, y visualizar tarjetas con información relevante de distintos países. Ofrece opciones de búsqueda por moneda, idioma, capital o nombre del país, brindando una experiencia interactiva y enriquecedora para los amantes de los viajes.",
         "coachconnect": "Proyecto colaborativo Certified Tech Developer: reserva de tutorías, visualización de tutorías con detalles, fechas disponibles, reseñas, gestión de usuarios y administración del sitio web. Mi rol: Bases de datos en Mysql, Infraestructura en React y apoyo al Frontend.",
         "dentalClinic": "Proyecto Frontend con React y Vite. Creé una web de odontólogos con tarjetas para explorar, agregar a favoritos y obtener detalles. Incluye sección de contacto con formulario para comunicación rápida. Interfaz dinámica para experiencia eficiente y atractiva.",
