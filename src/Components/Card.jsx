@@ -10,7 +10,7 @@ import proyectoGastos from "../img/PlanificadorGastos.png";
 import proyectoPediatria from "../img/Pediatria.png";
 import proyectoBackend from "../img/proyectoBakend.png";
 import coachConnect from "../img/CoachConnect.png";
-import travelBlog from "../img/travelBlog.png";
+import travelBlog from "../img/Travelsblog.png";
 import mavenLogo from "../img/maven.png";
 import materialui from "../img/material-ui-icon.png";
 import rickMorty from "../img/RickMorty.png";
