@@ -83,14 +83,14 @@ const Habilidades = () => {
           <div className="relative">
             <img
               src={reactHookForm}
-              alt="React hook form"
+              alt="reactHookForm"
               className="h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
             />
             <div
               className="absolute inset-0 bg-gray-700 opacity-0 hover:opacity-70 flex items-center justify-center 
-                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10 m-32"
+                h-3.2 w-3.2 xl:mr-28 lg:mr-10 sm:mr-10"
             >
-              <span className="text-white text-xs font-semibold text-center ">
+              <span className="text-white text-xs font-semibold text-center">
                 React Hook Form
               </span>
             </div>
